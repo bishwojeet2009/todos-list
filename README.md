@@ -1,6 +1,6 @@
 # Todo Projeect
 
-This project was generated using React and TypeScript with Vite.
+This project was generated using React and TypeScript.
 
 ## About Project:
 
@@ -17,7 +17,7 @@ A Todo project has been created where users can add, edit, complete, and delete 
 
 ## Setup
 
-1. Clone the repository from https://github.com/bishwojeet2009/todo-list.git.
+1. Clone the repository from https://github.com/bishwojeet2009/todos-list.git.
 2. Run npm install to install all the dependencies.
 
 ## Run
