@@ -1,6 +1,6 @@
 # Todo Projeect
 
-This project was generated using React and TypeScript.
+This project was generated using React and TypeScript...
 
 ## About Project:
 
