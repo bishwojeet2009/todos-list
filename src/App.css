@@ -1,0 +1,108 @@
+.main {
+  background-color: #a3ed7b;
+  padding: 5vh 2vh;
+}
+
+.container {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  min-height: 90vh;
+}
+
+.edit:hover,
+.update:hover,
+.delete:hover {
+  scale: 1.1;
+}
+.edit:active,
+.update:active,
+.delete:active {
+  scale: 0.8;
+}
+
+.editTodo {
+  border: 1px solid #c0c2c9;
+  padding: 5px 10px;
+  outline: none !important;
+  border-radius: 4px;
+}
+
+.todoItem {
+  border: 1px solid #e0e3eb;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.completed {
+  background-color: #e8f3e2;
+  border: 1px solid #a3ed7b;
+}
+
+.addTaskInp {
+  border: 1px solid #e0e3eb;
+  outline: none !important;
+  border-radius: 4px;
+}
+
+.addTask {
+  border-radius: 4px;
+}
+
+.filterBtn {
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background-color: #ababab;
+  cursor: pointer;
+  border: 1px solid #e0e3eb;
+}
+
+.filterBtn.active {
+  background-color: #56ad35;
+}
+.filterBtn:active {
+  box-shadow: inset -5px -5px 10px #fff,
+    inset 4px 5px 10px rgba(216, 218, 225, 0.7) !important;
+}
+
+.undoBtn {
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #e0e3eb;
+}
+
+.undoBtn:active {
+  box-shadow: inset -5px -5px 10px #fff,
+    inset 4px 5px 10px rgba(216, 218, 225, 0.7) !important;
+  scale: 0.9;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.searchFilter {
+  background-color: #ffffff !important;
+  border: 1px solid #e0e3eb;
+  border-radius: 20px;
+  background: url("../public/assets/image/search.png") no-repeat scroll 12px
+    center;
+  padding-left: 40px;
+  outline: none;
+}
+
+.todoText {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 24px;
+  }
+}
