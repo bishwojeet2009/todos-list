@@ -23,3 +23,7 @@ A Todo project has been created where users can add, edit, complete, and delete 
 ## Run
 
 To start app, use "npm run dev".
+
+## Page Link
+
+This app is deployed on GitHub. You can access it https://bishwojeet2009.github.io/todos-list/
